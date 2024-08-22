@@ -12,5 +12,5 @@ mongoose
     console.log("Successfully connected to MongoDB");
   })
   .catch((err) => {
-    console.log("Could not connect to MongoDB" + err);
+    console.log("Could not connect to MongoDB : " + err);
   });
