@@ -1,5 +1,4 @@
 import React from "react";
-import { HERO_CONTENT } from "../Constants/index";
 import me from "../assets/userAsset/me.jpg";
 import { motion } from "framer-motion";
 
@@ -32,7 +31,7 @@ const Hero = () => {
               animate="visible"
               className="bg-gradient-to-r from-purple-300 via-slate-500 to-darkblue-50 bg-clip-text text-4xl tracking-tight text-transparent"
             >
-              A Full Stack Developer
+              A Full Stack Web Developer
             </motion.span>
             <motion.p
               variants={container(1)}
@@ -40,7 +39,13 @@ const Hero = () => {
               animate="visible"
               className="my-2 max-w-xl py-6 font-light"
             >
-              {HERO_CONTENT}
+              I am a full stack development enthusiast, passionate about
+              building dynamic and scalable websites. I specialize in React.js,
+              Node.js, and other modern web technologies, and I love solving DSA
+              problems on LeetCode. Currently, I'm enhancing my skills in Docker
+              and best practices for building robust applications. Check out my
+              projects on GitHub and connect with me on Twitter to follow my
+              journey in the tech world.
             </motion.p>
           </div>
         </div>
