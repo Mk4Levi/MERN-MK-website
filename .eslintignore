@@ -1,5 +1,6 @@
 src/
 backend/
+server/
 public/
 node_modules/
 ./
