@@ -2,7 +2,7 @@
 
 ## => MERN-mk-website is a modern web application built using the MERN stack, featuring a React.JS front-end.This project utilizes MongoDB for data management and Express.js for backend server.
 
-## Website Link => https://mern-mk-website.vercel.app
+## Website Link => https://manthan-mk-mern.vercel.app
 
 ## Project's Screenshots =>
 
