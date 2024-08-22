@@ -13,10 +13,11 @@ export const useProjects = () => {
 const ProjectsProvider = ({ children }) => {
   const [projects, setProjects] = useState([]);
 
-  // Fetch projects when the component mounts
+  // Fetch projects from the mongoDB
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/projects")
+      // .get("http://localhost:5000/api/projects")
+      .get("https://mern-mk-server.vercel.app/api/projects")
       .then((response) => setProjects(response.data))
       .catch((error) => console.error("Error fetching projects:", error));
   }, []);

@@ -15,7 +15,11 @@ require("./db/conn");
 
 // Define routes
 app.get("/", (req, res) => {
-  res.send("<h1>Hello from the Backend!</h1>");
+  // res.send("<h1>Hello from the Backend!</h1>");
+  return res.json({
+    success: true,
+    message: "Your server is up and running",
+  });
 });
 
 app.use("/api", projectRoutes);
