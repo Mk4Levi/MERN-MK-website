@@ -1,14 +1,21 @@
-# mern-mk-website
+# MERN-MK-website
 
-## => MERN-mk-website is a modern web application built using the MERN stack, featuring a React and JS front-end, this project utilizes MongoDB for data management.
+## => MERN-mk-website is a modern web application built using the MERN stack, featuring a React.JS front-end.This project utilizes MongoDB for data management and Express.js for backend server.
 
-## Website Link => https://mern-mk-website.vercel.app/
+## Website Link => https://mern-mk-website.vercel.app
 
 ## Project's Screenshots =>
 
 ![image](./src/assets/img/ss1.png)
 ![image](./src/assets/img/ss2.png)
 ![image](./src/assets/img/ss3.png)
+
+## Technologies Used
+
+- **MongoDB**: Database
+- **Express.js**: Backend Server
+- **React.js**: Frontend Framework
+- **Node.js**: Backend Runtime Environment
 
 <h2>Getting Started</h2>
 
@@ -28,15 +35,18 @@ cd mern-mk-website
 
 4. Install all Dependencies used in this Project :
 
-```bash
-npm install
-```
+   ```sh
+   Frontend- npm install
+   Backend- 1. cd server 2. npm install
 
-5. Finally, host it on local server :
+   ```
 
-```bash
-npm run dev
-```
+5. Start the development server
+
+   ```sh
+   Frontend- npm run dev
+   Backend- 1. cd server  2. npm run dev
+   ```
 
 6. Now just search this link in your browser to view the live running application in your Local sysytem :
 
