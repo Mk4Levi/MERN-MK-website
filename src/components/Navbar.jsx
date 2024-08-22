@@ -21,13 +21,6 @@ const Navbar = () => {
       <div className="flex gap-5">
         <div className="flex items-center justify-center gap-4 text-2xl">
           <a
-            href="https://www.linkedin.com/in/mk4coder/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaLinkedin />
-          </a>
-          <a
             href="https://github.com/mk4levi"
             target="_blank"
             rel="noopener noreferrer"
@@ -41,6 +34,14 @@ const Navbar = () => {
           >
             <FaTwitter />
           </a>
+          <a
+            href="https://www.linkedin.com/in/mk4coder/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin />
+          </a>
+
           <a
             href="https://manthan-mk-portfolio.vercel.app"
             target="_blank"
