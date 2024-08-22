@@ -1,7 +1,6 @@
 import React from "react";
 import logo from "../assets/userAsset/logo.png";
 import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
-import { SiLeetcode } from "react-icons/si";
 import { motion } from "framer-motion";
 
 const Navbar = () => {
@@ -47,13 +46,9 @@ const Navbar = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            {/* <SiLeetcode /> */}
             <img src={logo} width={40} />
           </a>
         </div>
-        {/* <div>
-          <button className='bg-white rounded-md p-1 text-black text-extrabold'>Resources</button>
-        </div> */}
       </div>
     </nav>
   );
