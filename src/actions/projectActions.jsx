@@ -10,7 +10,7 @@ const setProjectsData = (data) => ({
 const fetchProjectsData = () => async (dispatch) => {
   try {
     const response = await axios.get(
-      "http://mern-mk-server.vercel.app/api/projects"
+      "https://mern-mk-server.vercel.app/api/projects"
     );
     // const response = await axios.get("http://localhost:5000/api/projects");
 
