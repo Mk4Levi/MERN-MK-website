@@ -53,7 +53,10 @@ const Projects = () => {
                   className="w-full max-w-xl lg:w-3/4"
                 >
                   <h6 className="mb-2 text-blue-300 font-semibold">
-                    {project.title} {"|"}
+                    <a href={project.link} target="_Blank">
+                      {project.title}
+                    </a>{" "}
+                    {"|"}
                     <a href={project.github} className="" target="_Blank">
                       <span className="ml-2 mr-2 mt-2 text-green-500 text-sm font-md text-md underline">
                         SourceCode
