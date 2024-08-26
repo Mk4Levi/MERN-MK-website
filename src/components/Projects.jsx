@@ -7,7 +7,7 @@ import { fetchProjectsData } from "../actions/projectActions";
 const Projects = () => {
   // const { projects } = useProjects();
   const dispatch = useDispatch();
-  const projects = useSelector((state) => state.example.data);
+  const projects = useSelector((state) => state.projects.data);
   console.log(projects);
 
   useEffect(() => {
